@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos e Privacidade | Bom dia com Deus Pai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --accent: #d4af37;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --bg-body: #f8fafc;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            padding: 1.5rem;
+            text-align: center;
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            font-weight: 800;
+        }
+
+        .navbar span { color: var(--primary); }
+
+        .container {
+            flex: 1; /* Garante que o conteúdo empurre o footer para baixo */
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        .hero { text-align: center; margin-bottom: 3rem; }
+        .hero h1 { font-size: 2.5rem; letter-spacing: -1px; margin-bottom: 0.5rem; }
+
+        .card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .disclaimer {
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        h2 { font-size: 1.4rem; margin: 2rem 0 1rem; color: var(--primary-dark); border-bottom: 1px solid #f1f5f9; padding-bottom: 0.5rem; }
+        h3 { font-size: 1.1rem; margin-top: 1.5rem; color: var(--text-main); }
+        p, li { color: var(--text-muted); margin-bottom: 1rem; }
+        ul { margin-left: 1.5rem; }
+
+        .cta-container {
+            text-align: center;
+            padding-top: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid #f1f5f9;
+        }
+
+        .btn-whatsapp {
+            display: inline-block;
+            background: #25d366; /* Verde WhatsApp */
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);
+        }
+
+        .btn-whatsapp:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+        }
+
+        .footer {
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            background: #f1f5f9;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <span>IASOLUTION</span> | Transparência
+</nav>
+
+<div class="container">
+    <header class="hero">
+        <h1>Privacidade e Termos</h1>
+        <p>Projeto Bom dia com Deus Pai</p>
+    </header>
+
+    <div class="card">
+        <div class="disclaimer">
+            <strong>Atenção:</strong> Este é um serviço de apoio emocional e espiritual. Não substitui psicoterapia ou consultas médicas.
+        </div>
+
+        <h2>Privacidade (LGPD)</h2>
+        <p>Sua privacidade é sagrada. Coletamos apenas seu número e histórico de mensagens para personalizar sua experiência com a Sara.</p>
+        <ul>
+            <li>Dados criptografados.</li>
+            <li>Zero compartilhamento com terceiros.</li>
+            <li>Você pode pedir a exclusão total a qualquer momento.</li>
+        </ul>
+
+        <h2>Termos de Uso</h2>
+        <p>Ao utilizar este serviço, você concorda que o aconselhamento tem base cristã e as decisões tomadas a partir das interações são de sua inteira responsabilidade.</p>
+
+        <div class="cta-container">
+            <a href="https://wa.me/5585994132054?text=Olá, li os termos e gostaria de continuar." class="btn-whatsapp">
+                Continuar no WhatsApp
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    © 2026 IASOLUTION Cloud & Projeto Bom dia com Deus Pai<br>
+    Sempre ao seu lado.
+</footer>
+
+</body>
+</html>
